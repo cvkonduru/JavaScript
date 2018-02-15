@@ -1,0 +1,9 @@
+const today=new Date();
+const day=today.getDay();
+const daylist=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+let hours=today.getHours();
+const minutes=today.getMinutes();
+const seconds=today.getSeconds();
+let timezone=( (hours>12)?"AM":"PM");
+console.log("Today is : "+daylist[day]);
+console.log("Current Time is " +hours+" "+timezone+":"+minutes+":"+seconds); 
