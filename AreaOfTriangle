@@ -1,0 +1,16 @@
+//HTML
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>The area of a triangle</title>
+</head>
+<body>  
+</body>
+</html>
+
+//JS for finding the area of triangle
+const a=5;b=6,c=7;
+const per=(a+b+c)/2;
+const area=Math.sqrt(per*(per-a)*(per-b)*(per-c));
+console.log(area);
