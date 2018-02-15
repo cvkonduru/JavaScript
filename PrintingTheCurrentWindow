@@ -5,7 +5,7 @@
 </head>
 <body>
   <h1>Printing the current window<h1>
-    <button onclick="print_window">Print</button>
+    <button onclick="print_window()">Print</button>
 </body>
 </html>
 
