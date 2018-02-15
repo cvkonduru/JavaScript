@@ -1,0 +1,16 @@
+<html>
+<head> 
+  <meta charset="UTF-8">
+  <meta lang="EN">
+</head>
+<body>
+  <h1>Printing the current window<h1>
+    <button onclick="print_window">Print</button>
+</body>
+</html>
+
+//JavaScript for printing the current window
+function print_window()
+{
+window.print();
+};
