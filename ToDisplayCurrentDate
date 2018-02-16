@@ -11,7 +11,7 @@
   
 //JavaScript for current date
 
-var Current_Date=new Date();
+var Current_Date=new Date(); // We need to create a new instance of Date object by using new keyword.
 console.log(Current_Date);
 
 output: "2018-02-15T23:02:54.816Z"
